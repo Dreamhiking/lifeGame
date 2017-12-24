@@ -75,7 +75,12 @@ public class LifeGame {
 	public static void main(String[] args){
 		LifeGame game=new LifeGame();
 		game.init();
-		game.showAll();
+		for(int i=0;i<3;i++){
+			System.out .println("This is NO:"+i);			
+			game.calucalteNext();
+			game.showAll();
+			System.out .println("\n\n");	
+		}
 	
 	}
 	

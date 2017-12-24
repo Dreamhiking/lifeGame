@@ -14,7 +14,15 @@ public class T1_life {
 		LifeGame game=new LifeGame();
 		
 		/*  NO:UnitTest1*/
+		//game.init();
+		//game.showAll();
+		
 		game.init();
-		game.showAll();
+		for(int i=0;i<3;i++){
+			System.out .println("This is NO:"+i);			
+			game.calucalteNext();
+			game.showAll();
+			System.out .println("\n\n");	
+		}
 	}
 }
